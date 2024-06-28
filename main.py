@@ -4,6 +4,7 @@ def main():
     numbers = [0] * 5
     for i in range(len(numbers)):
         numbers[i] = int(input('Enter a value: '))
+        
 
     """
     ########################################
@@ -12,6 +13,7 @@ def main():
     """
 
     # total = sum(numbers)
+    total = sum(numbers)
     print(total)
 
     ########################################
